@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Battery Logger</string>
+    <string name="summaryTitle">My Battery Log Summary</string>
+    <string name="battUsedTitle">Battery Used:</string>
+    <string name="battTimeTitle">Battery Time:</string>
+    <string name="consumptionTitle">Consumption Rate:</string>
+    <string name="battLogTitle">My Battery Log</string>
+    <string name="toLog">Open Log</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_battery_logger">Battery Logger</string>
+    <string name="title_activity_log_input">Create Log Entry</string>
+    <string name="add">Add New Log Entry</string>
+    <string name="finishAdd">Add Entry</string>
+    <string name="deleteButton">Delete selected entry</string>
+    <string name="descPrompt">Enter a Description</string>
+    <string name="startPercentPrompt">Enter Starting Percentage</string>
+    <string name="endPercentPrompt">Enter End Percentage</string>
+    <string name="durationPrompt">Enter Duration (in Seconds)</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summaryTitle"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        tools:context=".MainMenuActivity" />
+
+    <TextView
+        android:id="@+id/totalBatteryUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/battUsedTitle"
+        tools:context=".MainMenuActivity" />
+    
+    <TextView
+        android:id="@+id/batteryUsedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainMenuActivity" />
+    
+    
+    <TextView
+        android:id="@+id/batteryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/battTimeTitle"
+        tools:context=".MainMenuActivity" />
+    
+    <TextView
+        android:id="@+id/batteryTimeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainMenuActivity" />
+    
+    <TextView
+        android:id="@+id/energyConsumptionRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consumptionTitle"
+        tools:context=".MainMenuActivity" />
+    
+    <TextView
+        android:id="@+id/consumptionValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainMenuActivity" />
+    
+    <Button 
+        android:id="@+id/toLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toLog" />
+
+</LinearLayout>
